@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
-import ImgRotateA from "../../../assets/pictures/img_rotate_f.png";
-import ImgRotateB from "../../../assets/pictures/img_rotate_b.png";
+import ImgRotateA from "../../assets/pictures/img_rotate_f.png";
+import ImgRotateB from "../../assets/pictures/img_rotate_b.png";
 import './ErrorPage.css';
 
 export const ErrorPage = () => {

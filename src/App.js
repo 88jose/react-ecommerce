@@ -1,7 +1,7 @@
-import { CartProvider } from './components/context/Cart/CartContext';
-import { UserContextProvider } from './components/context/User/UserContext';
-import { WhisListProvider } from './components/context/WhisList/WhisListContext';
-import { WebRouter } from './components/routes/WebRouter';
+import { CartProvider } from './context/Cart/CartContext';
+import { UserContextProvider } from './context/User/UserContext';
+import { WhisListProvider } from './context/WhisList/WhisListContext';
+import { WebRouter } from './routes/WebRouter';
 import './index.css';
 
 function App() {

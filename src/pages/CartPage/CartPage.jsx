@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
-import { useCartContext } from '../../context/Cart/CartContext';
-import { ProductCart } from '../../Shop/ProductCart/ProductCart';
+import { useCartContext } from '../../context/Cart/CartContext'; 
+import { ProductCart } from '../../components/Shop/ProductCart/ProductCart'; 
 import './CartPage.css';
 
 export const CartPage = () => {

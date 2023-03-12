@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { useWhisListContext } from "../../context/WhisList/WhisListContext";
+import { useWhisListContext } from "../../../context/WhisList/WhisListContext"; 
 import iconHeart1 from '../../../assets/icons/heart.png';
 import iconHeart2 from '../../../assets/icons/heart2.png';
 

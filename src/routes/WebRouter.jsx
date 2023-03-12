@@ -1,14 +1,14 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { NavBar } from '../ui/NavBar/NavBar';
+import { NavBar } from '../components/ui/NavBar/NavBar'; 
 import { HomePage } from '../pages/HomePage/HomePage';
 import { ShopPage } from '../pages/ShopPage/ShopPage';
-import { ProductDetailContainer } from '../Shop/ProductDetailContainer/ProductDetailContainer';
+import { ProductDetailContainer } from '../components/Shop/ProductDetailContainer/ProductDetailContainer';
 import { CartPage } from '../pages/CartPage/CartPage';
 import { ErrorPage } from '../pages/ErrorPage/ErrorPage';
 import { LoginPage } from '../pages/LoginPage/LoginPage';
 import { PrivateRoute } from './PrivateRoute';
-import { Private } from '../User/Private/Private';
-import { Footer } from '../ui/Footer/Footer';
+import { Private } from '../components/User/Private/Private';
+import { Footer } from '../components/ui/Footer/Footer';
 
 export const WebRouter = () => {
    return (

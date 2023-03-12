@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
-import { useUserContext } from "../../context/User/UserContext";
+import { useUserContext } from "../../../context/User/UserContext"; 
 import { WhisCount } from "../../WhisList/WhisCount/WhisCount";
 import { CartCount } from "../../Shop/CartCount/CartCount";
 import logo from "../../../assets/icons/logo.svg";

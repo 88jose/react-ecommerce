@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { useCartContext } from "../../context/Cart/CartContext";
-import { useWhisListContext } from "../../context/WhisList/WhisListContext";
+import { useCartContext } from "../../../context/Cart/CartContext"; 
+import { useWhisListContext } from "../../../context/WhisList/WhisListContext";
 import iconAdd from "../../../assets/icons/add-bl.png";
 import iconHeart1 from '../../../assets/icons/heart.png';
 import iconHeart2 from '../../../assets/icons/heart2.png';

@@ -1,4 +1,4 @@
-import { useWhisListContext } from "../../context/WhisList/WhisListContext"; 
+import { useWhisListContext } from '../../../context/WhisList/WhisListContext'; 
 import './WhisCount.css';
 
 export const WhisCount = () => {

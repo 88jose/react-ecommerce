@@ -1,5 +1,5 @@
 import { Link, useSearchParams } from 'react-router-dom';
-import { useWhisListContext } from '../../context/WhisList/WhisListContext'; 
+import { useWhisListContext } from '../../../context/WhisList/WhisListContext'; 
 import { ProductWhis } from '../ProductWhis/ProductWhis';
 import iconHeart from '../../../assets/icons/heart.png';
 import './ProductList.css';

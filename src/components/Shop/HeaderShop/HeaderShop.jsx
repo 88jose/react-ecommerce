@@ -6,7 +6,7 @@ import imgWheels from '../../../assets/pictures/header_wheels.jpg';
 
 import "./HeaderShop.css";
 
-export const HeaderShop = ({ tittlePage }) => {
+export const HeaderShop = () => {
    const { categoryId } = useParams();
 
    function getTitleFromPathname(categoryId) {

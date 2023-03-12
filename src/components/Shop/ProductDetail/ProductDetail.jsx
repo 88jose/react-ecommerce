@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { Counter } from '../Counter/Counter';
-import { useCartContext } from '../../context/Cart/CartContext';
+import { useCartContext } from '../../../context/Cart/CartContext'; 
 import './ProductDetail.css';
 
 export const ProductDetail = ({ product }) => {
