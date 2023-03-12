@@ -3,7 +3,7 @@
    justify-content: center;
    align-items: center;
    color: white;
-   margin-bottom: 1rem;
+   padding-bottom: 1rem;
    border-bottom: 1px solid rgb(79, 79, 79);
    width: 40%;
 }

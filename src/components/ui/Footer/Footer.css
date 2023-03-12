@@ -2,8 +2,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 5rem;
-    height: 15rem;
+    padding: 3rem 5rem;
     border-top: 1px solid rgb(84, 84, 84);
     margin-top: 20rem;
 }
@@ -23,7 +22,7 @@
 }
 
 .section-footer img{
-    width: 5rem;
+    width: 3rem;
     margin-right: 2rem;
 }
 

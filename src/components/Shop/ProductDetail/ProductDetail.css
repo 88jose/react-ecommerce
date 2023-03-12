@@ -1,5 +1,6 @@
 .section-detail{
-   margin: 10rem 0;
+   margin-bottom: 10rem;
+   padding-top: 15rem;
 }
 
 .container-info img{
@@ -30,28 +31,33 @@
    width: 40rem;
    color: #FFFFFF;
    font-family: "neuehaas", Sans-serif;
+   margin-top: 2rem;
 }
 
 .counter{
    display: flex;
    justify-content: center;
    align-items: center;
-   margin-top: -10rem;
-   margin-left: 4rem;
+   margin-top: -8rem;
+   margin-left: 4.8rem;
 }
 
 .button-counter{
-   padding: 1rem 1.5rem;
-   /* background-color: #ff93ad; */
+   padding: 0rem 1.2rem 0.5rem 1.2rem;
    border: none;
    border-radius: 0.4rem;
+}
+.button-counter span{
+   font-size: 2em;
 }
 
 .number-counter{
    color: #FFFFFF;
-   margin: 0 1rem;
+    /* margin: 0 1rem; */
    font-size: 2em;
    font-family: "neuehaas", Sans-serif;
+   background-color: #0F0F0F;
+   padding: 0.5rem 1.6rem;
 }
 
 .finish,
@@ -106,7 +112,7 @@
    display: flex;
    justify-content: center;
    align-items: center;
-   margin-top: -10rem;
+   margin-top: -8rem;
    margin-left: 4rem;
 }
 
@@ -115,9 +121,11 @@
    padding: 0;
 }
 
-a.finish{
-   z-index: 1111;
-   color:#191919;
+a.finish span{
+   position: relative;
+   z-index: 10;
+   color: #191919;
+   font-weight: 900;
 }
 
 .continue:hover{

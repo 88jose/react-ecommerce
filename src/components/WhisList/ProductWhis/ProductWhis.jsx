@@ -27,7 +27,7 @@ export const ProductWhis = ({ product }) => {
          <div className="pirce-add-product-card">
             <p className="price-product-card">{ product.price } €</p>
             <button className="button-heart" onClick={ handleToggle }>
-               { !isInList 
+               {!isInList 
                   ? <img src={ iconHeart2 } alt="icon heart" width="30"/> 
                   : <img src={ iconHeart1 } alt="icon heart" width="30"/> 
                } 

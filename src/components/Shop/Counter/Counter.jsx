@@ -14,12 +14,16 @@ export const Counter = ({ onAdd }) => {
 
    return (
       <div className='counter'>
-         <button disabled={ count <= 0 } className="button-counter" onClick={ decrease }>-</button>
+         <button disabled={ count <= 0 } className="button-counter" onClick={ decrease }>
+            <span>-</span>
+         </button>
          <span className='number-counter'>{ count }</span>
-         <button className="button-counter" onClick={ increase }>+</button>
+         <button className="button-counter" onClick={ increase }>
+         <span>+</span>
+         </button>
          <div>
             <button onClick={ () => onAdd(count) } className='btn-add-detail'>
-               <span className="span-add">Add to cart</span>
+               <span className="span-add"> Add to cart </span>
                <img src={ iconAdd } alt="" width="20" className="icon-add-card"/>
             </button>
          </div>

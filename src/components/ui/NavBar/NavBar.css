@@ -1,9 +1,15 @@
 .nav{
-   display:flex;
+   display: flex;
    justify-content: space-between;
    align-items: center;
    background-color: #191919;
    padding: 0 5rem;
+   position: fixed;
+   width: 100%;
+   z-index: 111111;
+   -webkit-box-shadow: 1px 4px 18px 3px rgba(0,0,0,0.75);
+   -moz-box-shadow: 1px 4px 18px 3px rgba(0,0,0,0.75);
+   box-shadow: 1px 4px 18px 3px rgba(0,0,0,0.75);
 }
 
 .nav-logo{

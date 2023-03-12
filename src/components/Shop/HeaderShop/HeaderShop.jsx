@@ -70,12 +70,12 @@ export const HeaderShop = () => {
             <div className="contain-tittle">
                <h1 className="tittle-page">{ getTitleFromPathname(categoryId) }</h1>
                <Button 
-                  subtittleLink={getSubTitleButFromPathname(categoryId)} 
-                  tittleLink={getTitleButFromPathname(categoryId)} 
-                  newToLinkButton={getLinkFromPathname(categoryId)}
+                  subtittleLink={ getSubTitleButFromPathname(categoryId) } 
+                  tittleLink={ getTitleButFromPathname(categoryId) } 
+                  newToLinkButton={ getLinkFromPathname(categoryId) }
                />
             </div>
-            <img src={getImgFromPathname(categoryId)} alt="" />
+            <img src={ getImgFromPathname(categoryId) } alt="" />
       </div>
    );
 

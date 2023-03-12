@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router";
 import { useUserContext } from "../../../context/User/UserContext"; 
+import './Login.css';
 
 export const Login = () => {
    const { login } = useUserContext();
@@ -19,14 +20,14 @@ export const Login = () => {
    }
 
    return (
-      <div>
+      <div className="section-login">
          <h1>Login</h1>
          <form onSubmit={ handleSubmit }>
-            <label>Username:</label>
-            <input type="text" value={ username } onChange={ (event) => setUsername(event.target.value) } />
-            <label>Password:</label>
-            <input type="password" value={ password } onChange={ (event) => setPassword(event.target.value) } />
-            <button type="submit">Login</button>
+            <input type="text" value={ username } placeholder="Username:" onChange={ (event) => setUsername(event.target.value) } />
+            <input type="password" value={ password } placeholder="Password:" onChange={ (event) => setPassword(event.target.value) } />
+            <button type="submit">
+               <span>Login</span>
+            </button>
          </form>
       </div>
    )

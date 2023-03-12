@@ -10,10 +10,10 @@ export const CartPage = () => {
       return(
          <div className='section-noWish__cart'>
             <div className='parrafo-heart'>
-               <p>The cart is empty</p>
+               <p> The cart is empty </p>
             </div>
             <div className='link-explore'>
-               <Link to='/shop'>Explore articles</Link>
+               <Link to='/shop'> Explore articles </Link>
             </div>
          </div>
          )
@@ -23,7 +23,7 @@ export const CartPage = () => {
       <div className='section-listCart'>
          { cart.map(product => <ProductCart key={ product.id } product={ product }/>) }
          <div className="total">
-            <p className='total-cart'>Total: <span>{ getTotalPrice() }€</span></p> 
+            <p className='total-cart'>Total: <span>{ getTotalPrice() } €</span></p> 
          </div>
       </div>
    )

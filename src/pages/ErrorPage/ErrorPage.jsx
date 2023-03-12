@@ -7,8 +7,8 @@ export const ErrorPage = () => {
    return (
       <div className='container-fluid page-404'>
          <div className="row">
-            <h1 className="col-md-9 tittle-page">PAGE NOT FOUND</h1>
-            <h3 className='col-md-3'>Error 404</h3>
+            <h1 className="col-md-9 tittle-page"> PAGE NOT FOUND </h1>
+            <h3 className='col-md-3'> Error 404 </h3>
          </div>
          <div className='row container-rotate'>
             <div className="col-md-12 card-rotate">
@@ -20,7 +20,7 @@ export const ErrorPage = () => {
                </div>
             </div>
          </div>
-         <Link to='/'>Back to Home</Link>
+         <Link to='/'> Back to Home </Link>
       </div>
    )
 

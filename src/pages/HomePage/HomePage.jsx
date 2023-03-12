@@ -5,6 +5,7 @@ import { Banner } from '../../components/Home/Banner/Banner';
 import { SectionVideos } from '../../components/Home/SectionVideos/SectionVideos';
 import { Partners } from '../../components/Home/Partners/Partners';
 
+
 export const HomePage = () => {
    return (
       <>

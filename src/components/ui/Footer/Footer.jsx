@@ -9,11 +9,11 @@ export const Footer = () => {
         <>
             <div className='ancla-menu'>
                 <a href="#top">
-                    <img src={ arrowTop } alt="arrow icon" width='40'/>
+                    <img src={ arrowTop } alt="arrow icon" width='30'/>
                 </a>
             </div>
             <div className='section-footer'>
-                <p>Follow us</p>
+                <p> Follow us </p>
                 <div className='social-icon'>
                     <img src={ iconFace } alt="icon facebook" />
                     <img src={ iconYou } alt="icon youtube" />
@@ -21,7 +21,7 @@ export const Footer = () => {
                 </div>
             </div>
             <div className='bar-footer'>
-                <p>&copy; 2023 Created by Jose Torres</p>
+                <p> &copy; 2023 Created by Jose Torres </p>
             </div>
         </>
     )

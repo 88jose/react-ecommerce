@@ -3,7 +3,7 @@
    flex-direction: column;
    justify-content: center;
    align-items: center;
-   margin-top: 5rem;
+   padding-top: 12rem;
    margin-bottom: 10rem;
 }
 
@@ -11,6 +11,7 @@
    display: flex;
    justify-content: flex-end;
    width: 35%;
+   margin-top: 1rem;
 }
 
 .total-cart{
@@ -27,5 +28,6 @@
 }
 
 .section-noWish__cart{
-   margin: 10rem 0;
+   padding-top: 20rem;
+   margin-bottom: 10rem;
 }

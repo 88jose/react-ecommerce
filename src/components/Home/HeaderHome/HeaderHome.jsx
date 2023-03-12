@@ -3,7 +3,9 @@ import './HeaderHome.css';
 
 export const HeaderHome = () => {
    return (
-      <img src={ imgHeaderHome } alt="skateboard" className='img-headerHome'/>
+      <>
+         <img src={ imgHeaderHome } alt="skateboard" className='img-headerHome'/>
+      </>
    )
 
 }
