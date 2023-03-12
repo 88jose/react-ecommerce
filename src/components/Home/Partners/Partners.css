@@ -1,0 +1,42 @@
+.section-partners{
+   padding: 0 5rem;
+   margin-bottom: 10rem;
+   margin-top: -5rem;
+}
+
+.section-partners h2{
+   margin: 0 8.5rem;
+   color: #FFFFFF;
+}
+
+.partners{
+   display: flex;
+   justify-content: center;
+   margin-top: 1rem;
+}
+
+.logo-partner{
+   width: 20%;
+   margin: 0 0.5rem;
+   padding: 5rem;
+   border: 1px solid #383838;
+   border-radius: 0 4rem 0 0;
+   -webkit-border-radius: 0 4rem 0 0;
+   -moz-border-radius: 0 4rem 0 0;
+   -ms-border-radius: 0 4rem 0 0;
+   -o-border-radius: 0 4rem 0 0;
+}
+
+.logo-partner:hover{
+   background-color: #FF93AD;
+}
+
+.logo-partner a{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.logo-partner img{
+   width: 10rem;
+}

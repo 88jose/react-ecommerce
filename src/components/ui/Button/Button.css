@@ -1,0 +1,97 @@
+.button{
+    text-decoration: none;
+    margin-bottom: 2rem;
+}
+
+span{
+    text-decoration: none;
+    color:#191919;
+}
+
+.button-link{
+    text-decoration: none !important;
+    width: 20rem;
+    background-color: #FF93AD;
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0.625rem;
+    border-radius: 0.5rem;
+    border: none;
+    font-weight: 700;
+    text-align: left;
+    transition: border-radius .2s cubic-bezier(0.215, 0.61, 0.355, 1);
+    overflow: hidden;
+    transition: color .2s cubic-bezier(0.215, 0.61, 0.355, 1);
+    transform: translate3d(0, 0, 0);
+}
+
+.button-link::before{
+    text-decoration: none;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #FEFDFB;
+    transform: translate3d(0, 101%, 0);
+    transform-origin: top left;
+    transition: transform .2s cubic-bezier(0.215, 0.61, 0.355, 1);
+    z-index: 0;
+}
+
+.button-link:hover::before{
+    text-decoration: none;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+}
+
+.span-button-subtittle{
+    position: relative;
+    z-index: 10;
+    display: block;
+    margin-bottom: 2rem;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.span-button-tittle{
+    position: relative;
+    z-index: 10;
+    font-size: 1.5rem;
+    line-height: 0.92;
+    padding-right: 5rem;
+    margin-bottom: -0.12em;
+    font-size: 1.5rem;
+    width: 13rem;
+    text-decoration: none;
+}
+
+.icon-button-arrow{
+    width: 1.5rem;
+    position: absolute;
+    bottom: 0.625rem;
+    right: 0.625rem;
+    z-index: 10;
+}
+
+/* media queries */
+
+@media (max-device-width: 1000px) {
+
+    .button-link {
+        margin-bottom: 8.2rem;
+        width: 13rem;
+        text-decoration: none;
+    }
+    .span-button-tittle{
+        font-size: 0.7em;
+        text-decoration: none;
+    }
+    
+}

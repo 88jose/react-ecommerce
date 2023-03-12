@@ -1,0 +1,72 @@
+.section-categories{
+  /* padding: 0 5rem; */
+   display: flex;
+  /* width: 100%; */
+}
+
+.img-skateCategory{
+   width: 100%;
+}
+
+.img-wheelCategory{
+   width: 100%;
+}
+
+article{
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+   background-color: rgba(31,31,31,0.2);
+   border-top-right-radius: 3rem;
+   overflow: hidden;
+}
+
+figure{
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: #1F1F1F;
+   z-index: 0;
+   transform: translate3d(0, 0, 0);
+}
+
+figure:hover::after{
+   opacity:  1;
+}
+
+figure::after{
+   content: '';
+   display: block;
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   z-index: 21;
+   transition: opacity .3s cubic-bezier(0.215, 0.61, 0.355, 1);
+   opacity: 0;
+   background: linear-gradient(180deg, rgba(255,147,173,0) 0%, rgba(255,147,173,0.6) 100%);
+}
+
+main{
+   position: absolute;
+   z-index: 30;
+   padding: 2rem 2rem;
+   color: #FEFDFB;
+   transition: color .6s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.link-category{
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   z-index: 40;
+   font-size: 0;
+}
+
+.btn-shop-category a{
+   height: 15rem;
+}

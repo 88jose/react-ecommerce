@@ -1,0 +1,39 @@
+.header-shop{
+    background-color: #191919;
+}
+
+.contain-tittle{
+    display: flex;
+    align-items: flex-end;
+    /* margin: 0 5rem; */
+    font-weight: 100;
+}
+
+.tittle-page{
+    color:#FFFFFF;
+    font-family: "coign", Sans-serif;
+    font-size: 400px;
+    font-weight: 100;
+    margin-right: 1rem;
+    margin-bottom: -2rem;
+    height: 27.5rem;
+    line-height: 30rem;
+}
+
+.image-headerShop{
+    width: 100%;
+}
+
+/* media queries */
+@media (max-device-width: 1000px) {
+
+    .contain-tittle{
+        margin: 0 2rem -8rem 2rem;
+    }
+    .tittle-page{
+        font-size: 250px;
+        font-weight: 100;
+        line-height: 20rem;
+    }
+    
+}

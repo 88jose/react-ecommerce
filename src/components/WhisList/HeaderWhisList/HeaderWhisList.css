@@ -1,0 +1,14 @@
+.title-gif{
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+}
+
+h1{
+   font-family: "coign", Sans-serif;
+   padding: 0 0 0 5rem;
+   font-size: 27rem;
+   margin-top: -2.5rem;
+   line-height: 0.73em;
+   color:#FFFFFF;
+}

@@ -1,0 +1,38 @@
+.section-footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5rem;
+    height: 15rem;
+    border-top: 1px solid rgb(84, 84, 84);
+    margin-top: 20rem;
+}
+
+.ancla-menu{
+    position: absolute;
+    right: 0;
+    margin: 0 5rem;
+}
+
+.section-footer p{
+    font-family: 'coign' sans-serif;
+    color: #FFFFFF;
+    font-size: 10em;font-weight: 600;
+    font-size: 2em;
+    margin: 0;
+}
+
+.section-footer img{
+    width: 5rem;
+    margin-right: 2rem;
+}
+
+.bar-footer{
+    background-color: #FF93AD;
+    color: #191919;
+    padding: 0.3rem 5rem;
+}
+
+.bar-footer p{
+    margin: 0;
+}

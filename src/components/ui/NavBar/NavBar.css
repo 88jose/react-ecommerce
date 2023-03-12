@@ -1,0 +1,151 @@
+.nav{
+   display:flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: #191919;
+   padding: 0 5rem;
+}
+
+.nav-logo{
+   padding: 0.5rem;
+}
+
+.nav-links{
+   display: flex;
+   align-items: center;
+}
+
+button.nav-item{
+   background-color: #0F0F0F;
+   border: 2px solid #ff93ad;
+   padding: 0.5rem 1.5rem;
+   color: #ff93ad;
+   border-radius: 0.7rem;
+   font-weight: 700;
+}
+
+button.nav-item:hover{
+   background-color: #ff93ad;
+   color: #0F0F0F;
+}
+
+.nav-item-shop{
+   margin-right: 2rem;
+   text-transform: lowercase;
+}
+
+.nav-item-category{
+   margin-right: 2rem;
+}
+
+.nav-item-shop:hover, 
+.nav-item-category:hover{
+   color: #FF93AD;
+}
+
+.nav-item-shop:active, .nav-item-shop:focus,
+.nav-item-category:active, .nav-item-category:focus{
+   text-transform: uppercase;
+   color: #FF93AD;
+}
+
+a{
+   text-decoration: none;
+   color:#FFFFFF;
+   font-family: "neuehaas", Sans-serif;
+   font-weight: 600;
+   font-size: 1.8em;
+}
+
+.icon-cart{
+   width: 1.5rem;
+   cursor: pointer;
+   margin-top: -0.5rem;
+   margin-left: 5rem;
+}
+
+.icon-login{
+   width: 2rem;
+   cursor: pointer;
+   margin-top: -0.5rem;
+}
+
+.count-cart{
+   width: 1.5rem;
+   height: 1.5rem;
+   margin-top: -2rem;
+   margin-right: 1rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   font-weight: 700;
+   color: #191919;
+   background-color: #FF93AD;
+   border-radius: 100%;
+   -webkit-border-radius: 100%;
+   -moz-border-radius: 100%;
+   -ms-border-radius: 100%;
+   -o-border-radius: 100%;
+
+}
+
+.content-modal{
+   position: absolute;
+   width: 20vw;
+   right: 6.5rem;
+   min-height: 60vh;
+   z-index: 11;
+   padding: 2rem;
+   border-radius: 3rem 0 0 0;
+   background-color: rgb(255,147,173);
+   background: linear-gradient(180deg, rgba(255,147,173,1) 0%, rgba(177,107,123,1) 100%);
+   overflow-x: hidden;
+}
+
+.tittle-buttom-modal{
+   display: flex;
+   justify-content: space-between;
+}
+
+.content-product-modal{
+   width: 100vw;
+   margin-top: 2rem;
+}
+
+.button-close-modal{
+   height: 2rem;
+   background-color: transparent;
+   border: none;
+   margin-top: 1rem;
+}
+
+.icon-close-modal{
+   width: 1.5rem;
+   cursor: pointer;
+}
+
+.tittle-modal-cart{
+   font-family: "coign", Sans-serif;
+   font-size: 5em;
+}
+
+
+
+/* media queries */
+
+@media screen and (max-device-width: 1000px){ 
+
+   .nav{
+      padding: 0 2rem;
+   }
+   .nav-logo img{
+      width: 8rem;
+   }
+   .nav-item{
+      font-size: 1em;
+   }
+   .icon-cart, .icon-login {
+      width: 1rem;
+   }
+}

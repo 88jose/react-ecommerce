@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="156" height="71" viewBox="0 0 156 71">
+  <g id="Grupo_70" data-name="Grupo 70" transform="translate(-837 -7)">
+    <g id="Elipse_4" data-name="Elipse 4" transform="translate(923 17)" fill="#2b2a2a" stroke="#ff93ad" stroke-width="15">
+      <ellipse cx="17" cy="25" rx="17" ry="25" stroke="none"/>
+      <ellipse cx="17" cy="25" rx="9.5" ry="17.5" fill="none"/>
+    </g>
+    <text id="SKATE_-_B" data-name="SKATE - B" transform="translate(837 66)" fill="#fff" font-size="70" font-family="CoignPro-27Bold, 'Coign Pro \32 7'" font-weight="700" letter-spacing="0.02em"><tspan x="0" y="0">SKATE - B</tspan></text>
+    <text id="ARD" transform="translate(958 67)" fill="#fff" font-size="71" font-family="CoignPro-27Bold, 'Coign Pro \32 7'" font-weight="700" letter-spacing="0.02em"><tspan x="0" y="0">ARD</tspan></text>
+  </g>
+</svg>

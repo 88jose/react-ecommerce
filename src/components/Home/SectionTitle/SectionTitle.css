@@ -1,0 +1,26 @@
+.section-title{
+   display: flex;
+   align-items: center;
+}
+
+.tittle-page{
+   color:#FFFFFF;
+   font-family: "coign", Sans-serif;
+   font-size: 400px;
+   font-weight: 100;
+   padding: 0 0 0 5rem;
+   margin-bottom: -2rem;
+   height: 27.5rem;
+   line-height: 30rem;
+}
+
+.text{
+   color: #FF93AD;
+   font-family: "neuehaas", Sans-serif;
+   font-size: 4.4em;
+   line-height: 1em;
+   margin-bottom: -4rem;
+   padding-right: 5rem;
+   padding-left: 2rem;
+   font-weight: 900;
+}

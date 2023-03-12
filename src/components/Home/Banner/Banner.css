@@ -1,0 +1,41 @@
+.section-banner{
+   border-top: 5px solid #FF93AD;
+   border-bottom: 5px solid #FF93AD;
+   margin-top: 10rem;
+   transform: rotate(-5deg);
+   -webkit-transform: rotate(-5deg);
+   -moz-transform: rotate(-5deg);
+   -ms-transform: rotate(-5deg);
+   -o-transform: rotate(-5deg);
+}
+
+.scrolling-text-container {
+   display: flex;
+   overflow: hidden;
+   width: 100%;
+}
+
+.scrolling-text {
+   color:#FFFFFF;
+   font-weight: 900;
+   font-size: 5vw;
+   padding-right: 1vw;
+   white-space: nowrap;
+   animation-name: scrolling;
+   animation-duration: 10s;
+   animation-timing-function: linear;
+   animation-iteration-count: infinite;
+}
+
+@keyframes scrolling {
+   from {
+      transform: translateX(100);
+      -webkit-transform: translateX(100);
+      -moz-transform: translateX(100);
+      -ms-transform: translateX(100);
+      -o-transform: translateX(100);
+   }
+   to {
+      transform: translateX(-100%);
+   }
+}

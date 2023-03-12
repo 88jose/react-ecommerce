@@ -1,0 +1,17 @@
+.count-heart{
+   width: 1.5rem;
+   height: 1.5rem;
+   margin: -2rem 2rem 0 0.3rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   font-weight: 700;
+   color: #FF93AD;
+   outline: 3px solid;
+   border-radius: 100%;
+   -webkit-border-radius: 100%;
+   -moz-border-radius: 100%;
+   -ms-border-radius: 100%;
+   -o-border-radius: 100%;
+}

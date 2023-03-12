@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'coign';
+	font-style: normal;
+	font-weight: normal;
+	font-display: auto;
+	src: url('../src/assets/fonts/coign/coign.eot');
+	src: url('../src/assets/fonts/coign/coign.eot?#iefix') format('embedded-opentype'),
+        url('../src/assets/fonts/coign/coign.woff2') format('woff2'),
+		url('../src/assets/fonts/coign/coign.woff') format('woff'),
+		url('../src/assets/fonts/coign/coign.ttf') format('truetype'),
+		url('../src/assets/fonts/coign/coign.svg#neuehaas') format('svg');
+}
+
+@font-face {
+    font-family: 'neuehaas';
+	font-style: normal;
+	font-weight: normal;
+	font-display: auto;
+	src: url('../src/assets/fonts/neuehaas/neuehaas.eot');
+	src: url('../src/assets/fonts/neuehaas/neuehaas.eot?#iefix') format('embedded-opentype'),
+		url('../src/assets/fonts/neuehaas/neuehaas.woff2') format('woff2'),
+		url('../src/assets/fonts/neuehaas/neuehaas.woff') format('woff'),
+		url('../src/assets/fonts/neuehaas/neuehaas.ttf') format('truetype'),
+		url('../src/assets/fonts/neuehaas/neuehaas.svg#neuehaas') format('svg');
+}
+
+
+body{
+    background-color: #191919;
+		overflow-x: hidden;
+}
+
+.section-shop-products{
+    margin: 15rem 5rem;
+}
+
+/* boton add dynamic */
+.btn-add-detail{
+  width: 200px;
+}
