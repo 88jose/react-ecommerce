@@ -13,8 +13,8 @@ export const ProductList = () => {
     const query = searchParams.get('q') ?? '';
     
     const handleInput = ({ target }) => {
-        const { value } = target
-        setSearchParams({ q : value })
+        const { value } = target;
+        setSearchParams({ q : value });
     } 
 
     useEffect(() => {

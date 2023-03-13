@@ -7,7 +7,7 @@
             "name": "DGK Ninja Turtle",
             "price": 30.00,
             "url": "https://wuweijob.net/wp-content/uploads/2023/03/imgP_1.png",
-            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions."
+            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions."
         },
         {
             "id": 2,
@@ -185,5 +185,57 @@
             "url":"https://wuweijob.net/wp-content/uploads/2023/03/imgW_5.png",
             "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions."
         }
-    ]
+    ],
+    
+        "partners" : [
+            {
+                "id" : 1,
+                "name": "element",
+                "img": "https://wuweijob.net/wp-content/uploads/2023/03/logo-element.png",
+                "link": "https://www.elementbrand.es/"
+            },
+            {
+                "id" : 2,
+                "name": "santa cruz",
+                "img": "https://wuweijob.net/wp-content/uploads/2023/03/logo-sCruz.png",
+                "link": "https://santacruzskateboards.com/"
+            },
+            {
+                "id" : 3,
+                "name": "vans",
+                "img": "https://wuweijob.net/wp-content/uploads/2023/03/logo-vans.png",
+                "link": "https://www.vans.es/"
+            },
+            {
+                "id" : 4,
+                "name": "volcom",
+                "img": "https://wuweijob.net/wp-content/uploads/2023/03/logo-volcom.png",
+                "link": "https://www.volcom.es/"
+            },
+            {
+                "id" : 5,
+                "name": "etnies",
+                "img": "https://wuweijob.net/wp-content/uploads/2023/03/logo-etnies.png",
+                "link": "https://eu.etnies.com/"
+            },
+            {
+                "id" : 6,
+                "name": "dc shoes",
+                "img": "https://wuweijob.net/wp-content/uploads/2023/03/logo-dc.png",
+                "link": "https://www.dcshoes.es/"
+            },
+            {
+                "id" : 7,
+                "name": "thrasher magazine",
+                "img": "https://wuweijob.net/wp-content/uploads/2023/03/logo-thras.png",
+                "link": "https://www.thrashermagazine.com/"
+            },
+            {
+                "id" : 8,
+                "name": "independent",
+                "img": "https://wuweijob.net/wp-content/uploads/2023/03/logo-inde.png",
+                "link": "https://independenttrucks.com/"
+            }
+        ]
+    
 }

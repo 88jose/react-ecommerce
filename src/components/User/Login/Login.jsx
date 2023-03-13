@@ -9,11 +9,10 @@ export const Login = () => {
    const [password, setPassword] = useState('');
    const navigate = useNavigate();
 
-
    function handleSubmit(event){
       event.preventDefault();
 
-      if(username === "Jose" && password === "123"){
+      if(username === "Assembler" && password === "123"){
          login();
          navigate('/private');
       }
@@ -21,12 +20,12 @@ export const Login = () => {
 
    return (
       <div className="section-login">
-         <h1>Login</h1>
+         <h1> Login </h1>
          <form onSubmit={ handleSubmit }>
             <input type="text" value={ username } placeholder="Username:" onChange={ (event) => setUsername(event.target.value) } />
             <input type="password" value={ password } placeholder="Password:" onChange={ (event) => setPassword(event.target.value) } />
             <button type="submit">
-               <span>Login</span>
+               <span> Login </span>
             </button>
          </form>
       </div>

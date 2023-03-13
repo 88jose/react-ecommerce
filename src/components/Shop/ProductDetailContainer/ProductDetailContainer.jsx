@@ -10,19 +10,18 @@ export const ProductDetailContainer = () => {
   useEffect(() => {
     const fetchProducts = async () => {
         const response = await fetch(url);
-        const json = await response.json()
+        const json = await response.json();
 
         if(detalleId){
             const filteredProducts = json.find(products => products.id === parseInt(detalleId));
-            setProducts(filteredProducts)
+            setProducts(filteredProducts);
         }else{
-            setProducts(json)
+            setProducts(json);
         }
     }
     fetchProducts();
 }, [detalleId])
   
-
   return (
     <div className="container-detail">
       <ProductDetail key={ products.id } product={ products }/>        

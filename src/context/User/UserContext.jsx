@@ -6,7 +6,7 @@ export const useUserContext = () => useContext(UserContext);
 export const UserContextProvider = ({ children }) => {
    const [isUserAuthenticated, setIsUserAuthenticated] = useState(
       JSON.parse(localStorage.getItem("User")) ?? false
-      );
+   );
    
    const login = useCallback (function(){
       localStorage.setItem("User", JSON.stringify(true));

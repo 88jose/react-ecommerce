@@ -15,7 +15,7 @@ export const SectionCategories = () => {
                      <img src={ imgSkateCategory } alt="skateboard" className='img-skateCategory'/>
                   </figure>
                   <main>
-                     <h3>Skateboards</h3>
+                     <h3> Skateboards </h3>
                   </main>
                </article>
             </NavLink>
@@ -27,7 +27,7 @@ export const SectionCategories = () => {
                      <img src={ imgWheelsCategory } alt="wheels" className='img-wheelCategory'/>
                   </figure>
                   <main>
-                     <h3>Skateboard Wheels</h3>
+                     <h3> Skateboard Wheels </h3>
                   </main>
                </article>
             </NavLink>

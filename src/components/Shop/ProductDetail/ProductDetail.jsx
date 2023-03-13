@@ -22,14 +22,13 @@ export const ProductDetail = ({ product }) => {
             <p>{ product.description }</p>
           </div>
         </div>
-        {goToCart
-          ? <div className='link-finish'>
-              <NavLink to='/cart' className='finish'><span> Finish </span></NavLink>
-              <NavLink to='/shop' className='continue'> Continue Shop </NavLink>
-            </div>
-          : <Counter onAdd={ onAdd }/>
+        { goToCart
+            ? <div className='link-finish'>
+                <NavLink to='/cart' className='finish'><span> Finish </span></NavLink>
+                <NavLink to='/shop' className='continue'> Continue Shop </NavLink>
+              </div>
+            : <Counter onAdd={ onAdd }/>
         }
-        
       </div>
   )
 

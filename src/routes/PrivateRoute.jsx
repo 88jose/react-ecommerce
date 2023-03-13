@@ -8,11 +8,7 @@ export const PrivateRoute = () => {
       return <Navigate to='/login' replace={ true }/>
    }
 
-   return (
-      <div>
-         <Outlet />
-      </div>
-   )
+   return <Outlet />
    
 }
 

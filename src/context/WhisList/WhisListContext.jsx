@@ -4,12 +4,14 @@ const WhisListContext = createContext([]);
 export const useWhisListContext = () => useContext(WhisListContext);
 
 export const WhisListProvider = ({ children }) => {
-   const [whis, setWhis] = useState(JSON.parse(localStorage.getItem("myWhisList")) || []);
+   const [whis, setWhis] = useState(
+      JSON.parse(localStorage.getItem("myWhisList")) || []
+   );
    
    const addNewWhis = (item, quantity) => {
       const existingWhis = whis.find((whisItem) => whisItem.id === item.id);
       if (existingWhis) {
-         console.log("El producto ya está en la lista de deseos"); //cambiar y retornar una aviso
+         console.log("the product already exists"); //cambiar y retornar una aviso
          return;
       }
       setWhis([...whis, { ...item, quantity }]);

@@ -4,9 +4,13 @@ const CartContext = createContext([]);
 export const useCartContext = () => useContext(CartContext);
 
 export const CartProvider = ({ children }) => {
-   const [cart, setCart] = useState(JSON.parse(localStorage.getItem("myCart")) || []);
+   const [cart, setCart] = useState(
+      JSON.parse(localStorage.getItem("myCart")) || []
+   );
    
-   const addNewProduct = (item, quantity) => { setCart([...cart, { ...item, quantity }]) };
+   const addNewProduct = (item, quantity) => { 
+      setCart([...cart, { ...item, quantity }]) 
+   };
 
    const updateProductQuantity = (item, quantity) => {
       setCart(

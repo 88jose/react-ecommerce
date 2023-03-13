@@ -7,7 +7,7 @@ export const SectionVideos = () => {
       <div className='container-fluid section-videos'>
          <div className="row">
             <div className="col-md-6 view">
-               <span className='span-view'>VIEW</span>
+               <span className='span-view'> VIEW </span>
             </div>
             <div className="col-md-6 videoOne">
                <video src={ videoOne } autoPlay loop muted></video>
@@ -18,7 +18,7 @@ export const SectionVideos = () => {
                <video src={ videoTwo } autoPlay loop muted></video>
             </div>
             <div className="col-md-8 skateboard">
-               <span className='span-skateboard'>SKATEBOARD</span>
+               <span className='span-skateboard'> SKATEBOARD </span>
             </div>
          </div>
       </div>

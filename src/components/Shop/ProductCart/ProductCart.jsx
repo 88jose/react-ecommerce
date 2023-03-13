@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom';
 import { useCartContext } from '../../../context/Cart/CartContext'; 
 import './ProductCart.css';
 
@@ -6,9 +7,9 @@ export const ProductCart = ({ product }) => {
 
    return (
       <div className='section-productCart'>
-         <div className='img-cart'>
+         <NavLink to={ `detail/${ product.id }` } className='img-cart'>
             <img src={ product.url } alt={ product.name } />
-         </div>
+         </NavLink>
          <div className="container-infoCart">
             <div className="info-cart">
                <div className="title-cart">
