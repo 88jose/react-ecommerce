@@ -1,123 +1,75 @@
 `#react-basics` `#assembler-institute-of-technology` `#master-in-software-engineering`
 
-# React E-commerce <!-- omit in toc -->
+# React E-commerce basic
 
-A demo app to learn the basics of React and to create a shopping cart using hooks.
+This project is a basic e-commerce website for skateboards, where you can buy different products related to skateboarding. The website has the following pages:
 
-## Table of Contents <!-- omit in toc -->
+- Home page
+- Shop page with all the products
+- Skateboard category page
+- Wheels category page
+- Error 404 page
+- Login page
+- Private route for the wishlist page
 
-- [Getting Started](#getting-started)
-- [Instructions](#instructions)
-- [Extra steps 💯](#extra-steps-)
-- [Requirements](#requirements)
-- [Available Scripts](#available-scripts)
-- [Author](#author)
-- [License](#license)
+This project was developed using React and the following hooks and functions: 
 
-## Getting Started
+useEffect, useState, useContext, useNavigate, useParams, useSearchParams, useMemo, useCallback, custom hook, react-router-dom.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Run `npm i` or `yarn` in the terminal to install the dependencies.
+## Desing 🔰
 
-Then, run `npm run start` or `yarn start` to start up the app.
 
-The app will be run by default in the following url: `http://localhost:3000/`
+![This is an image](src/assets/capture/webDesing.png) 
 
-### The repo
+## Getting Started 🚀
 
-First, you will need to clone the repo:
+This project was bootstrapped with Create React App.
 
-```bash
-$ git clone https://github.com/assembler-school/react-basics-hooks-shopping-cart.git
-```
+To get started, run the following commands in the terminal:
 
-## Instructions
+- npm install
+- npm start
 
-Throughout this week you will start creating the dashboard of your e-commerce. We will start this pill with the contents given during the class, and scalate as we get deepen into the information.
+The app will run by default on http://localhost:3000/
 
-The `main` branch of the future repos will have the favourite class solution of the previous pill so that you can get started with it, should you get stucked at any stage.
+#### Prerequisites 📋
 
-### Instructions
+To install and run this software, you will need Node.js and NPM or Yarn installed on your machine.
 
-<img src='https://github.com/assembler-institute/react-basics-hooks-shopping-cart/blob/main/src/img/repo/react-basics-classes-initial.png?raw=true' width='600'>
+#### Installation 🔧
 
-Once you have installed the dependencies of the pill you will need to start using components in a way that is as reusable and modularized as possible.
+To install the necessary dependencies, run the following command:
 
-Each UI element should be a React component, for example, buttons are UI elements that are reused in multiple places in the app so they should be extracted to React components.
+- npm install
 
-### App features
+#### Running the tests ⚙️
 
-Once you have modularized the app in components you will have to implement to logic so that you can create an ecommerce app.
+To run the automated tests for this system, run the following command:
 
-#### Rendering the products
+- npm test
 
-The products are stored in the `products.js` file which you should use to render the products to the screen dynamically using a JavaScript loop `map`.
+#### End-to-End Tests 🔩
 
-As we go along the first lessons, each product should have the event listeners and methods needed to handle the UI interactions needed such as adding the product to the cart.
+The end-to-end tests check the entire system, verifying that all parts of the application are working together as expected.
 
-#### Add to cart
+### Deployment 📦
 
-<img src='https://github.com/assembler-institute/react-basics-hooks-shopping-cart/raw/main/src/img/repo/react-basics-classes-add-to-cart.png' width='600'>
+To deploy this project, you will need to run the following command:
 
-During the first stage, you will be required to have a counter for the quantity of products you would like to have directly on each product. Clicking the `Add to Cart` button should add the product that was clicked to the shopping cart.
+- npm run build
 
-By default, the shopping cart will be empty.
+This will create a build of the project that can be deployed to a web server.
 
-The items in the cart should be able to render in the shopping cart when the `Add to Cart` button is clicked to add products to the cart. You can set any default items at the start.
+### Built With 🛠️
 
-#### Shopping cart
+This project was built with the following tools:
 
-<img src='https://github.com/assembler-institute/react-basics-hooks-shopping-cart/raw/main/src/img/repo/react-basics-classes-add-to-cart.png' width='600'>
+- React
+- Node.js
+- NPM
 
-Once a product has been added to the cart you should be able to:
+### Authors ✒️
 
-- Edit the product quantity using the select element which will update the cart’s total price
-- Remove items from the cart which will update the cart’s total price
-- The cart total price should always be updated so that it represents the total cost of all the items in the cart
-- When the cart is empty you should conditionally render a message inside the cart saying that the cart is empty. Then, when the cart has had items added, you should instead render the cart items and remove the default message.
+* **Jose Torres** - [88jose](https://github.com/88jose)
 
-### State management
-
-You should use React to handle the state management in the app. You cannot use a state management library.
-
-## Extra steps 💯
-
-Once you have finished the initial part of the pill you should implement the following steps to improve your skills:
-
-<img src='https://github.com/assembler-institute/react-basics-hooks-shopping-cart/raw/main/src/img/repo/react-basics-classes-add-to-cart.png' width='600'>
-
-- You should check if the cart item has already been added to the cart to only update the quantity instead of adding it again. You should stablish a quantity limit for each product that could depend upon the stock you stablish on your `products.js` data.
-- Store the items in local storage and load them if the page is reloaded so that the cart items are not lost of page refresh
-- Each time the page is refreshed you should load the cart items from local storage to save them in the React state so that the app renders with the contents from local storage if there are any of them. Otherwise, the cart should display the default message of “Your cart is empty”
-
-## Requirements
-
-- You should extract and modularize all the UI elements to React components
-- The products must be rendered dynamically using JavaScript loops
-- The products should be rendered as React components
-- You cannot use external state management libraries
-- All the components that require state should be created using React
-- Use `functional components` and `setState` methods to update the state of the application
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `yarn start`
-
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-## Learn More <!-- omit in toc -->
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-## License
-
-Licensed under the [MIT License](./LICENSE).
