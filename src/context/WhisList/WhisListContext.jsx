@@ -11,7 +11,7 @@ export const WhisListProvider = ({ children }) => {
    const addNewWhis = (item, quantity) => {
       const existingWhis = whis.find((whisItem) => whisItem.id === item.id);
       if (existingWhis) {
-         console.log("the product already exists"); //cambiar y retornar una aviso
+         alert("The product already exists"); 
          return;
       }
       setWhis([...whis, { ...item, quantity }]);

@@ -5,7 +5,7 @@ export const PrivateRoute = () => {
    const { isUserAuthenticated } = useUserContext();
 
    if(!isUserAuthenticated) {
-      return <Navigate to='/login' replace={ true }/>
+      return <Navigate to='/login'/>
    }
 
    return <Outlet />

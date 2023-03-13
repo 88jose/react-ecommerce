@@ -10,7 +10,7 @@
 
 .container-infoCart{
    display: flex;
-   align-items: end;
+   align-items: flex-end;
    width: 100%;
    justify-content: space-around;
 }

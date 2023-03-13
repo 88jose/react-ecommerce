@@ -12,7 +12,7 @@ export const Login = () => {
    function handleSubmit(event){
       event.preventDefault();
 
-      if(username === "Assembler" && password === "123"){
+      if(username === "Lidwina" && password === "123"){
          login();
          navigate('/private');
       }
